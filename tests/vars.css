@@ -1,0 +1,18 @@
+:root {
+  /*cluster-1*/
+  --main-bg-color: aquamarine;
+  --main-text-color: rgb(6, 27, 38);
+  --main-border-color: #4e4848;
+  --warning-color: #e8bd10;
+  --success-color: #00fa2a;
+  --error-color: #ff0000;
+
+  /*cluster-2*/
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --text-color: #333333;
+  --background-color: rgb(245, 245, 245);
+  --link-color: rgb(41, 128, 185);
+  --neutral-color: #bdc3c7;
+}
