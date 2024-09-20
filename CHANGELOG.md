@@ -82,6 +82,10 @@ px replace options, '_REM_RESULT_' for rem calc result based on rootFontSize,
 
   ![vars](/assets/vars.png) <br>
 
+  或者可以拉取部署在 CDN 资源上的变量声明文件 <br>
+
+  ![vars-cdn](/assets/css-cdn.png)
+
   - 实际开发中的样式文件 <br>
 
     ![css-sample](/assets/css-sample.png) <br>
