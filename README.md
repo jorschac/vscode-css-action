@@ -4,6 +4,8 @@
 
 A vscode extension helps replacing CSS properties with CSS variables on **.css/.less/.scss/.vue files**, with extensive support for industry-level needs. <br>
 
+[Bug reports](https://github.com/jorschac/Issues/issues)
+
 ## What's for?
 
 Given a style variables declaration files (either local or cloud-deployed), Css Code Action proivides dynamic dianostcis and quick fix options to current stylesheet file. **This will help developers effortlessly replace numeric style properties with neat concise style variables on their existing files**.<br>
@@ -157,4 +159,6 @@ for those who may not know, you can configure it in settins.json or File -> Sett
 ## Special Thanks
 
 Great Great thanks to [vscode-css-action](https://github.com/kikyous/vscode-css-action) and [vscode-css-variables](https://github.com/vunguyentuan/vscode-css-variables). Thanks for ideas and inspirations 🚀
+
+
 
