@@ -1,5 +1,5 @@
 {
-  "name": "css-variables-replacer",
+  "name": "vscode-css-variables-replacer",
   "private": false,
   "displayName": "CSS Variables Replacer",
   "description": "A vscode extension helps replacing CSS properties with CSS variables on .css/.less/.scss/.vue files",

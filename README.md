@@ -152,3 +152,9 @@ for those who may not know, you can configure it in settins.json or File -> Sett
    ```
 
 ![addition action](https://tva1.sinaimg.cn/large/0081Kckwly1gldfsn0l21j317w0u0wjn.jpg)
+
+
+## Special Thanks
+
+Great Great thanks to [vscode-css-action](https://github.com/kikyous/vscode-css-action) and [vscode-css-variables](https://github.com/vunguyentuan/vscode-css-variables). Thanks for ideas and inspirations 🚀
+
