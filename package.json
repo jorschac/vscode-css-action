@@ -6,6 +6,19 @@
   "version": "1.0.4",
   "license": "MIT",
   "publisher": "jorschac",
+  "keywords": [
+		"cssvariable",
+		"css-variable",
+		"css-var",
+		"variable",
+		"less",
+		"sass",
+		"css",
+		"intellisense",
+		"autocomplete",
+		"vscode"
+	],
+  "icon": "assets/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/jorschac/vscode-css-action"

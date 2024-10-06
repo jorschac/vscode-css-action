@@ -1,4 +1,4 @@
-![Banner](/assets/banner.png)
+![Banner](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/banner.png)
 
 # Css Variables Replacer
 
@@ -24,23 +24,23 @@ Given a style variables declaration files (either local or cloud-deployed), Css 
 
    > style variables declaration file could be local
 
-   ![placeholder for image-variable-declare-file](/assets/vars.png) <br>
+   ![placeholder for image-variable-declare-file](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/vars.png) <br>
 
    > and it could be cloud-deployed
 
-   ![placeholder for image-variable-cdn-declare-file](/assets/css-cdn.png) <br>
+   ![placeholder for image-variable-cdn-declare-file](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/css-cdn.png) <br>
 
 2. ### make sure you configure it appropriately so that extension can locate your declaration files <br>
 
    > in your settings
 
-   ![placeholder for image-settins](/assets/settins.png) <br>
+   ![placeholder for image-settins](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/settins.png) <br>
 
 3. ### now move to the file you are working on <br>
-   ![placeholder for image-diagnostics](/assets/css-sample.png) <br>
-   ![placeholder for image-pallete](/assets/palette.png) <br>
-   ![placeholder for image-fixoptions](/assets/fix-options.png) <br>
-   ![placeholder for image-fixed](/assets/fixed.png) <br>
+   ![placeholder for image-diagnostics](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/css-sample.png) <br>
+   ![placeholder for image-pallete](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/palette.png) <br>
+   ![placeholder for image-fixoptions](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/fix-options.png) <br>
+   ![placeholder for image-fixed](https://raw.githubusercontent.com/jorschac/vscode-css-variables-replacer/refs/heads/master/assets/fixed.png) <br>
 
 ## Compility
 
