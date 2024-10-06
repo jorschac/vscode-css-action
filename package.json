@@ -21,23 +21,25 @@
   ],
   "contributes": {
     "configuration": {
-      "title": "Css Action",
+      "title": "Css Variables Replacer",
       "properties": {
-        "cssAction.variablesFile": {
+        "cssReplacer.variablesFile": {
           "type": "string",
-          "description": "style variables file path."
+          "description": "style variables file path. multiple files paths should be seperated by coma",
+          "order": 1
         },
-        "cssAction.rootFontSize": {
+        "cssReplacer.rootFontSize": {
           "type": "integer",
           "description": "root font size for rem calc.",
           "default": 16
         },
-        "cssAction.baseDir": {
+        "cssReplacer.baseDir": {
           "type": "string",
-          "description": "Base directory to your variables file. e.g cssAction.baseDir='/Users/name_1/dir_2/project_3'; cssAction.variablesFile='src/variables/vriable.css'. Final absolute path to your variable file will be: '/Users/name_1/dir_2/project_3/src/variables/vriable.css' Default value will be the toppest directory of your project.",
-          "default": ""
+          "markdownDescription": "Base directory to your variables file. \n\n  e.g \n\n- **Extension.baseDir='/Users/name_1/dir_2/project_3'** \n\n- **Extension.variablesFile='src/variables/vriable.css'** \n\n Final absolute path to your variable file will be: \n\n **'/Users/name_1/dir_2/project_3/src/variables/vriable.css'** \n\n Default value will be the toppest directory of your project.",
+          "default": "",
+          "order": 0
         },
-        "cssAction.pxReplaceOptions": {
+        "cssReplacer.pxReplaceOptions": {
           "type": "array",
           "items": {
             "type": "string"
@@ -49,7 +51,7 @@
             "px2rem(<%= _MATCHED_TEXT_ %>)"
           ]
         },
-        "cssAction.colorReplaceOptions": {
+        "cssReplacer.colorReplaceOptions": {
           "type": "array",
           "items": {
             "type": "string"
@@ -59,10 +61,11 @@
             "<%= _VAR_NAME_ %>"
           ]
         },
-        "cssAction.severity": {
+        "cssReplacer.severity": {
           "type": "integer",
           "description": "severity level of diagnostics, 0 - disable, 1 - information, 2 - warning, 3 - error, default value is 2",
-          "default": 2
+          "default": 2,
+          "order": 2
         }
       }
     },
