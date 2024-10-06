@@ -6,6 +6,14 @@ A vscode extension helps replacing CSS properties with CSS variables on **.css/.
 
 [Bug reports](https://github.com/jorschac/Issues/issues)
 
+
+- [Css Variables Replacer](#css-variables-replacer)
+  - [What's for?](#whats-for)
+  - [Usage](#usage)
+  - [Compility](#compility)
+  - [Config](#config)
+  - [Special Thanks](#special-thanks)
+
 ## What's for?
 
 Given a style variables declaration files (either local or cloud-deployed), Css Code Action proivides dynamic dianostcis and quick fix options to current stylesheet file. **This will help developers effortlessly replace numeric style properties with neat concise style variables on their existing files**.<br>
